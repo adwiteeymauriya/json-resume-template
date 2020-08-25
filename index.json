@@ -1,116 +1,271 @@
 {
+  "meta": { "theme": "kendall" } ,
   "basics": {
-    "name": "John Doe",
-    "label": "developer",
-    "image": "https://user-images.githubusercontent.com/10413754/79948155-e5e9da80-84a5-11ea-83eb-34e2f5aa89f6.png",
-    "email": "johndoe@gmail.com",
-    "phone": "(111) 333-4567",
-    "website": "http://johndoe.com",
-    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "name": "Adwiteey Mauriya",
+    "label": "Data Scientist",
+    "image": "http://adwiteeymauriya.com/photo.jpg",
+    "summary": "Experienced Doctoral Researcher with a demonstrated history of working in the research industry. Skilled in Statistical Data Analysis, Linux System Administration, High performance computing, and Data Analytics. Strong research skills with a Doctor of Philosophy - PhD: focused on Plasma and High-Temperature Physics from Instituto Superior Tecnico, Lisbon, Portugal.",
+    "website": "http://adwiteeymauriya.com",
+    "email": "adwiteeymauriya@gmail.com",
+    "phone": "+351927728594, +447448656658",
     "location": {
-      "address": "22111 Makiling",
-      "postalCode": "4027",
-      "city": "Calamba",
-      "countryCode": "PH",
-      "region": "Philippines"
+      "city": "Lisbon",
+      "countryCode": "PT",
+      "postalCode": "1150-022",
+      "address": "96, 5E, Avenida Almirante Reis",
+      "region": "Lisbon city"
+    }
+    ,
+    "profiles": [
+      {
+        "username": "adwiteey",
+        "url": "https://twitter.com/adwiteey",
+        "network": "Twitter"
+      },
+     {
+        "username": "adwiteey",
+        "url": "https://medium.com/@adwiteeymauriya",
+        "network": "Medium"
+      },
+      {
+        "url": "https://github.com/adwiteeymauriya",
+        "username": "adwiteeymauriya",
+        "network": "Github"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "adwiteeymauriya",
+        "url": "https://www.linkedin.com/in/adwiteeymauriya/"
+      }
+    ]
+  }
+      ,
+  "work": [
+ {
+      "company": "NetJets Inc.",
+      "website": "https://www.netjets.com",
+      "endDate": "2020-07-31",
+      "highlights": ["Developed Tableau reports" 
+                    ],
+      "location":  "Lisbon, Portugal",
+      "description": "Airline company",
+      "position": "Business Data Analyst",
+      "startDate": "2019-10-31",
+      "summary": "Worked in an airline company as a FreeLancer Business Data Analyst for the past 10 months. My job in this company is to build SRSS, SAP Business Objects (BO), Power BI, MS Excel, and Tableau report for the crewmember training department. I have built reports for tracking crewmember licenses, their grading analysis, training department, and flight school’s KPIs. A significant part of my job is to liaise with the business stakeholders and gather the requirements to develop reports and assist them to make the decision based on quantitative measurements of the business data. My Ph.D. is in computational plasma physics, so I have an adequate amount of experience with statistics and data analysis, which was found to be very useful with my current job."     
     },
-    "profiles": [{
-      "network": "Twitter",
-      "username": "johndoe",
-      "url": "http://twitter.com/johndoe"
-    }]
-  },
-  "work": [{
-    "company": "Company",
-    "position": "Developer",
-    "website": "http://somecompany.com",
-    "startDate": "2020-01-01",
-    "endDate": "2020-01-01",
-    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    "highlights": [
-      "Lead Developer of Innovation hub"
-    ]
-  }],
-  "volunteer": [{
-    "organization": "Organization",
-    "position": "Volunteer",
-    "website": "http://organization.com/",
-    "startDate": "2020-01-01",
-    "endDate": "2020-01-01",
-    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    "highlights": [
-      "Awarded 'Volunteer of the Month'"
-    ]
-  }],
-  "education": [{
-    "institution": "University",
-    "area": "Software Development",
-    "studyType": "Bachelor",
-    "startDate": "2020-01-01",
-    "endDate": "2020-01-01",
-    "gpa": "4.0",
-    "courses": [
-      "WEB101 - Web Development",
-      "SYS123 - Object Oriented Programming"
-    ]
-  }],
-  "awards": [{
-    "title": "Award",
-    "date": "2020-11-01",
-    "awarder": "Company",
-    "summary": "Programmer of the Year 2020"
-  }],
-  "publications": [{
-    "name": "Publication",
-    "publisher": "Company",
-    "releaseDate": "2020-10-01",
-    "website": "http://publication.com",
-    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-  }],
-  "skills": [{
-    "name": "Web Development",
-    "level": "Master",
-    "keywords": [
-      "HTML",
-      "CSS",
-      "Javascript"
-    ]
-  }],
-  "languages": [{
+    {
+      "company": "UK Atomic Energy Authority / Culham Centre for Fusion Energy",
+      "endDate": "2019-09-30",
+      "highlights": ["Developed collision operator",
+                    "Participated in nuclear fusion experiment campigns"
+                    ],
+      "position": "Visiting PHD Student",
+      "startDate": "2017-05-31",
+      "website": "https://ccfe.ukaea.uk/"
+    },
+    {
+      "company": "Institute For Plasma Research",
+      "endDate": "2015-01-02",
+      "highlights": [
+      "Benchmarked the VMOMs code for fixed boundary equilibrium",
+      "Merged fix boundary equilibrium to free boundary method and patched in VMOMs code"
+      ],
+      "position": "Project Scientist",
+      "startDate": "2014-06-30",
+      "summary": "Extension of fixed boundary MHD equilibrium reconstruction code to obtain free boundary equilibrium",
+      "website": "http://www.ipr.res.in/"
+    },
+    {
+      "company": "Institute For Plasma Research",
+      "endDate": "2014-04-30",
+      "highlights": [
+      "Studied the formalism of Grad-Shafranov equation in spectral form",
+      "Investigated various ways to obtain MHD equilibrium in tokamak numerically"
+      ],
+      "position": "Project Student",
+      "startDate": "2013-07-31",
+      "description": "Study of tokamak equilibrium using variational moment method",
+      "summary": "Extend the fix boundary VMOMS(Variational MOments Method Solver) code to free-boundary. This code solves inverse Grad-Shafranov equation to reconstruct MHD equilibrium in axis-symmetric Tokamak plasmas.",
+      "website": "http://www.ipr.res.in/"
+    },
+    {
+      "company": "Institute For Plasma Research",
+      "endDate": "2013-08-30",
+      "highlights": [
+      "Formulated the pressure distribution of liquid nitrogen in magnetic coils network nonlinear resistive circuits",
+      "Developed the code to calculate the pressure distribution of liquid nitrogen and helium in superconducting coils of SST-1"
+      ],
+      "position": "Internship",
+      "startDate": "2013-06-01",
+      "description": "Calculation of pressure distribution of nonlinear hydraulics networks in magnetic coils of SST-1",
+      "summary": "Extend the fix boundary VMOMS(Variational MOments Method Solver) code to free-boundary. This code solves inverse Grad-Shafranov equation to reconstruct MHD equilibrium in axis-symmetric Tokamak plasmas.",
+      "website": "http://www.ipr.res.in/"
+    },
+    {
+      "company": "Indian Institute of Technology, Kanpur",
+      "endDate": "2012-07-31",
+      "highlights": [
+      "Analysed magneto-rotational instability using spring model analogy",
+      "Checked energy transfer in magnetohydrodynamics turbulence using TARANG 1.0."
+      ],
+      "position": "Summer Internship",
+      "startDate": "2012-05-01",
+      "summary": "Implication of MHD turbulence and Magneto-Rotational Instability(MRI) in accretion disk using TARANG(1.0)",
+      "website": "https://www.iitk.ac.in/"
+    },
+    {
+      "company": "CSIR Centre for Mathematical Modelling and Computer Simulation (C-MMACS)",
+      "endDate": "2011-07-31",
+      "highlights": [
+      "Studied the Navier Stokes equation at very low Reynolds number",
+      "Formulated the desired boundary conditions for simple shear flow using first order perturbation theory"
+      ],
+      "position": "Summer Internship",
+      "startDate": "2011-05-31",
+      "summary": "Formulation of the problem of motion of a forced small sphere in simple shear flow",
+      "website": "http://www.cmmacs.ernet.in"
+    }
+  ],
+  "education": [
+     {
+      "institution": "Instituto Superior Técnico, Lisbon",
+      "area": "Tokamak plasma physics , Intrinsic rotation, Microturbulence in tokamak plasmas, High performance computing, Numerical modeling",
+      "studyType": "Doctor of Philosophy (PhD)",
+      "startDate": "2015-01-16",
+      "endDate": "2020-09-25",
+      "gpa": "",
+      "courses": ["Plasma Physics"]
+    },
+    {
+      "institution": "Indian Institute of Science Education and Research, Pune",
+      "area": "Natural Sciences ",
+      "studyType": "Integrated B.S - M.S",
+      "startDate": "2009-08-31",
+      "endDate": "2014-06-14",
+      "gpa": "",
+      "courses": [
+        "Statistical Physics",
+        "Condensed Matter Physics",
+        "Group theory",
+        "Quantum Mechanics",
+        "Quantum Information"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "reference": "Adwiteey have accepted to make part of a global Training Management System implementationproject I manage, as a report builder, required by project to support system functionalities. Despite his lack of business aviation knowledge, very quickly Adwiteey has adapted to our European and American work environments and Project Subject Matter Experts. Technically Adwitey has demonstrated his enormous knowledge of Structured Query Language(SQL) and was able to develop complex queries and manipulate databases. His phenomenal analytical and reasoning skills were not limited to build reports but also to add value to the product by suggesting innovative solutions, solving problems as they arise, understanding at the same time system and business limitations and supporting the project team as required. He was a very useful piece of our puzzle we will lose now due to budget limitations. He has a very special spark and I trust he will go far by making our world a better place.",
+      "name": "Claudia Ceboleiro, Strategic Initiatives PMO & CI Project Manager. NetJets Inc."
+    }
+  ],
+  "skills": [
+    {
+      "keywords": [
+        "Organisation skills",
+        "Reasoning",
+        "Problem Solver",
+        "Technical writing",
+        "Team Player"
+      ],
+      "level": "",
+      "name": "Soft skills"
+    },
+   {
+      "keywords": [
+        "Python", "C","Fortran","C++","Bash","HTML,CSS","Javascript","R","Matlab","Scala"       
+      ],
+      "level": "",
+      "name": "Programming Languages"
+    },
+   {
+      "keywords": [
+        "Apache Spark", "PySpark","Apache Kafka","Apache Hadoop","Mapreduce","Power BI", "Tableau", "SQL", "SRSS","MPI","git","svn","visual studio","intellijidea","Jira","Kanban","MS office","Share point"
+      ],
+      "level": "",
+      "name": "Technologies"
+    }
+  ],
+  "awards": [
+    {
+      "title": "EPS Europhysics conference grant",
+      "date": "2018-07-31",
+      "awarder": "European Physical Society",
+      "summary": ""
+    },
+    {
+      "title": "Summer School in parallel computing",
+      "date": "2018-05-31",
+      "awarder": "Cineca, Italy",
+      "summary": "27th Summer school in parallel computing"
+    },
+    {
+      "title": "Debugging and optimization of scientific application",
+      "date": "2017-11-30",
+      "awarder": "Cineca, Italy",
+      "summary": "Traveling grant to participate in a workshop"
+    },
+    {
+      "title": "Fusenet conference grant",
+      "date": "2016-07-31",
+      "awarder": "Fusenet: European Fusion Education Network",
+      "summary": "Grant to participate in a 54th Culham Plasma Physics Summer School at Culham Center for Fusion Energy, Oxfordshire, United Kingdom"
+    },
+    {
+      "title": "FCT grant",
+      "date": "2015-01-31",
+      "awarder": "Fundação para a Ciência e Tecnologia ",
+      "summary": "PhD scholarship"
+    },
+    {
+      "title": "IAS fellow",
+      "date": "2012-05-31",
+      "awarder": "Indian Academy of Sciences",
+      "summary": "Formulation of the problem of motion of a forced small sphere in simple shear flow. Studied the Navier Stokes equation at the low Reynolds number. Formulated the  desired boundary conditions for simple shear flow using first order perturbation theory. "
+    },
+    {
+      "title": "KVPY fellow",
+      "date": "2009-08-31",
+      "awarder": "Department of Science and Technology, Government of India",
+      "summary": "http://kvpy.iisc.ernet.in/main/index.htm"
+    }
+  ],
+   "languages": [{
     "language": "English",
     "fluency": "Native speaker"
-  }],
-  "interests": [{
-    "name": "Electronics",
-    "keywords": [
-      "PCB",
-      "IOT"
-    ],
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-  }],
-  "references": [{
-    "name": "Jane Doe",
-    "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-  }],
-  "projects": [
+  },
+ {
+    "language": "Hindi",
+    "fluency": "Native speaker"
+  },
+  {
+    "language": "Portuguese",
+    "fluency": "Beginner"
+  }
+               ],
+  "interests": [
     {
-      "name": "Project Name",
-      "description": "Description...",
-      "highlights": [ 
-        "COVID19 Patient Tracker"
-      ],
-      "keywords": [
-        "PHP", "NodeJS", "Javascript"
-      ],
-      "startDate": "2020-01-01",
-      "endDate": "2020-01-01",
-      "url": "https://project.example.com",
-      "roles": [ 
-        "Lead Developer", "Designer"
-      ],
-      "image": "https://user-images.githubusercontent.com/10413754/79948155-e5e9da80-84a5-11ea-83eb-34e2f5aa89f6.png",
-      "entity": "Facebook, Google, Microsoft, Amazon",
-      "type": "web application"
+      "name": "Reading",
+      "keywords":["Philosophy","Economics","International Relation"
+                 ]
     }
-  ]
+  ],
+    "projects": [{
+    "name": "Python package for accessing JET data",
+    "highlights": [],
+    "keywords": [
+    "Numpy",
+    "sys",
+    "requests",
+    "MDSPlus",
+    "Pickle"
+    ],
+    "startDate": "2017-01-02",
+    "endDate": "2017-04-12",
+    "url": "",
+    "roles": [],
+    "entity": "CCFE, UK",
+    "type": "application"
+    }
+    ]
+
 }
